@@ -1,0 +1,19 @@
+.NavigationToggle {
+  color: white;
+  height: 100%;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  background-color: #703b09;
+  border-right: 4px solid #40a4c8;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 500px) {
+  .NavigationToggle {
+    display: none;
+  }
+}
